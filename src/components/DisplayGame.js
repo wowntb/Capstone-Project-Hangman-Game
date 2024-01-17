@@ -11,6 +11,7 @@ import state8 from "../hangman-drawings/state8.GIF";
 import state9 from "../hangman-drawings/state9.GIF";
 import state10 from "../hangman-drawings/state10.GIF";
 import state11 from "../hangman-drawings/state11.GIF";
+import Help from "./Help";
 
 // This component is used to display the game on the browser.
 class DisplayGame extends Component {
@@ -48,6 +49,7 @@ class DisplayGame extends Component {
 
     return (
       <div className="hangman-game">
+        <Help />
         <p>
           <b>Attempts left: </b>
           {attempts}
