@@ -5,4 +5,4 @@ First, ensure that you have the node_modules folder in the directory of this rep
 ## Game Instructions
 This is a simple game of hangman. You must deduce what the word is by guessing letters and seeing if that letter is part of the word. You will have 10 attempts to get the word right before the man is hung. The progression of the image represents the user's failed attempts.
 ## Contributors
-Nathenale Bedane (me)
+Nathenale Bedane
